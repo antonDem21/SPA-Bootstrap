@@ -20,7 +20,8 @@
 <body>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <img class="navbar-brand logo" src="assets/logo.png" alt="logo" />
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,11 +29,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -42,28 +49,68 @@
     <section class="header">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 headerOne">
+                <div class="col-md-7 col-sm-6 col-xs-12 headerOne">
                     <img src="assets/header-1.png" alt="header-1" />
                 </div>
-                <div class="col-md-6 headerTwo">
+                <div class="col-md-5 col-sm-6 col-xs-12 headerTwo">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <img src="assets/header-2.png" alt="header-2" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <img src="assets/header-3.png" alt="header-3" />
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <img src="assets/header-5.png" alt="header-5" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <img src="assets/header-4.png" alt="header-4" />
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- book section -->
+    <section>
+        <div class="container">
+            <div class="row book">
+                <div class="col-md-6 col-sm-6" style="width: 90%;">
+                    <img src="assets/book.png" alt="book" style="margin: 30px auto;" />
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="section-title">
+                        <div class="caption">
+                            <span>ABOUT THE ARTIST</span>
+                            <div class="vertical-line">
+                                <hr />
+                            </div>
+                        </div>
+                        <h2><span style="color: #445296;">Marilee</span> <span style="color: #ae0235;">Lee</span></h2>
+                        <p style="max-width: 480px; margin: 30px 0">
+                            NY native with a BA in Art Education, she began participating in
+                            juried shows and hanging in galleries in 1977. Relocating to Jensen
+                            Beach in 1997. A previous exhibiting director and VP of the AAMC
+                            until she opened the Artist FRAMING Galley in 2004. She now
+                            rotates her present work in her home gallery.
+                        </p>
+                        <button type="button" class="btn btn-custom">
+                            <span>LEARN MORE</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+    <section>
+        <div class="thumbnails">
+            <a href="#"><img src="https://source.unsplash.com/featured/?street" alt=""></a>
+            <a href="#"><img src="https://source.unsplash.com/featured/?bird" alt=""></a>
         </div>
     </section>
 

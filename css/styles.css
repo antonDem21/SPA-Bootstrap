@@ -1,15 +1,20 @@
 nav {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   background-color: white !important;
+  height: 110px;
 }
 
-.header {
-  max-height: 200px;
+.logo {
+  width: 250px;
+}
+
+.header > div {
+  /* max-height: 705px; */
 }
 
 .header div {
-  padding: 1px;
+  padding: 0px;
   margin: 0
 }
 
@@ -18,6 +23,44 @@ img {
 }
 
 .headerOne img {
-  padding: 3px;
-  height: 94.5%
+  padding-right: 2px;
+  height: 90.3%;
+  padding-left: 2px;
+}
+
+.headerTwo img {
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
+
+.caption {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+
+.vertical-line {
+  margin: 0 20px;
+  width: 40px;
+}
+
+.vertical-line hr {
+  border-color: #445296;
+}
+
+.btn-custom {
+  border-radius: 40px;
+  background-color: #445296;
+}
+
+.btn-custom > span {
+  margin: 10px 40px;
+  color: white;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
