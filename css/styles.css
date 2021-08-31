@@ -1,3 +1,12 @@
+@font-face {
+  font-family: filson;
+  src: url(../fonts/FilsonPro-Regular.ttf);
+}
+
+body {
+  font-family: filson;
+}
+
 nav {
   max-width: 1600px;
   margin: 0 auto;
@@ -101,6 +110,10 @@ img {
     padding: 3rem
 }
 
+.owl-item > .item {
+  height: 333px !important;
+}
+
 .owl-carousel .item {
     margin: 3px
 }
@@ -108,7 +121,8 @@ img {
 .owl-carousel .item img {
     display: block;
     width: 100%;
-    height: auto
+    /* height: auto */
+    height: 100%
 }
 
 .owl-carousel .item {
