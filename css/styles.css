@@ -19,6 +19,15 @@ nav {
   height: 110px;
 }
 
+.nav-link {
+  font-family: filson-bold;
+  color: black !important;
+}
+
+.nav-link:hover {
+  color:#445296 !important;
+}
+
 .logo {
   width: 250px;
 }
