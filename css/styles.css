@@ -3,6 +3,11 @@
   src: url(../fonts/FilsonPro-Regular.ttf);
 }
 
+@font-face {
+  font-family: filson-bold;
+  src: url(../fonts/FilsonPro-Bold.ttf);
+}
+
 body {
   font-family: filson;
 }
@@ -18,8 +23,16 @@ nav {
   width: 250px;
 }
 
-.header > div {
-  /* max-height: 705px; */
+.collapse.show {
+  z-index: 1;
+  background: white !important;
+  padding: 5px 20px;
+}
+
+.collapsing {
+  z-index: 1;
+  background: white !important;
+  padding: 5px 20px;
 }
 
 .header div {
@@ -46,7 +59,8 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: filson-bold;
 }
 
 .vertical-line {
@@ -170,7 +184,8 @@ img {
 .footer-link {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: filson-bold;
 }
 
 .footer-link:hover {
