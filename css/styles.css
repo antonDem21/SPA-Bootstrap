@@ -13,10 +13,30 @@ body {
 }
 
 nav {
-  max-width: 1600px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   background-color: white !important;
   height: 110px;
+}
+
+#navbarSupportedContent {
+  /* margin-right: 5rem; */
+}
+
+.logo {
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 0
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .headerOne Img {
+    height: 99.5% !important;
+  }
 }
 
 .nav-link {
@@ -161,19 +181,21 @@ img {
 }
 
 .item-bottom {
-  width: 200px;
-  margin: 0 auto;
+  width: 68%;
+  left: 0;
   background: #fffefe;
   margin-top: -12px;
   border-radius: 5px;
   position: absolute;
-  margin-left: 62px;
   box-shadow: 0px 11px 25px 5px grey;
-  text-align: center;
+  right: 0;
+  left: 16%;
 }
 
 .item-bottom span {
   vertical-align: -webkit-baseline-middle;
+  display: block;
+  margin: 10px 10px
 }
 
 #page-content {
@@ -203,4 +225,29 @@ img {
 
 .footer-icon {
   color: #445296;
+}
+
+.contact {
+  margin: 130px;
+  min-width: 260px;
+}
+
+@media screen and (max-width: 505px) {
+  .contact {
+    margin: 130px 50px
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    margin: 130px 70px
+  }
+}
+
+.section-title {
+  font-family: filson-bold;
+}
+
+.gallery-section {
+  font-family:filson-bold;
 }
