@@ -1,22 +1,22 @@
+//Jquery auto height
 $(document).ready(function () {
-  $('.customer-logos').slick({
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    arrows: false,
-    dots: false,
-    pauseOnHover: false,
-    responsive: [{
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 4
+  $(".owl-carousel").owlCarousel({
+    autoPlay: 3000,
+    items: 5,
+    itemsDesktop: [1199, 3],
+    itemsDesktopSmall: [979, 3],
+    center: true,
+    nav: true,
+    loop: true,
+    responsive: {
+      600: {
+        items: 5
       }
-    }, {
-      breakpoint: 520,
-      settings: {
-        slidesToShow: 3
-      }
-    }]
+    }
   });
+  $(".item").on("click", function () {
+    console.log("click item")
+    $(".item").removeClass("hover");
+    $(this).addClass("hover");
+  })
 });

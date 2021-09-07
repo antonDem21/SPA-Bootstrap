@@ -169,7 +169,11 @@ img {
 }
 
 .owl-carousel .item {
-    margin: 3px
+    margin: 20px;
+}
+
+.hover {
+  transform: scale(1.28);
 }
 
 .owl-carousel {
